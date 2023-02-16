@@ -26,6 +26,7 @@ function App() {
       <h4>{text}</h4>
       <h3>{x >= 10? "x is greater than or equal to 10":"No Match"}</h3>
       <Demo  para={x} /> */}
+      {/*  Multiple css : <h1 className:{`${classes.body} demo`}> */}
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />
